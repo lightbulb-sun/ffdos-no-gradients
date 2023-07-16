@@ -32,6 +32,12 @@
         strb    r0, [r5]
         b       0x0803ada0
 
+; change border color from teal to black
+.org 0x082e1a98
+        .dh     0
+.org 0x082e1ac0
+        .dh     0
+
 ; Final Fantasy II
 .org 0x080cc98a
 .thumb
