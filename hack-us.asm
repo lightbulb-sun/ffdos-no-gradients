@@ -1,5 +1,5 @@
 .gba
-.open "hack.gba", 0x08000000
+.open "hack-us.gba", 0x08000000
 
 ; Main Menu Purple
 .org 0x0829db6e
